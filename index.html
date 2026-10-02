@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Velvet Brew Café</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <h1>☕ Velvet Brew</h1>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+
+            <h2>Welcome to Velvet Brew</h2>
+
+            <p>
+                A cozy little corner where coffee, conversations
+                and beautiful moments come together.
+            </p>
+
+            <img src="cafe.png.jpg" alt="Aesthetic Cafe">
+
+            <br>
+
+            <a href="#menu">Explore Our Menu</a>
+
+        </section>
+
+
+        <!-- About Section -->
+        <section id="about">
+
+            <h2>Our Story</h2>
+
+            <p>
+                Velvet Brew is a cozy café created for coffee lovers,
+                book readers and anyone looking for a peaceful place
+                to relax and enjoy delicious coffee.
+            </p>
+
+        </section>
+
+
+        <!-- Menu Section -->
+        <section id="menu">
+
+            <h2>Our Menu</h2>
+
+            <div class="menu-container">
+
+                <!-- Coffee -->
+                <div class="menu-card">
+
+                    <h3>☕ Coffee</h3>
+
+                    <p>Classic Cappuccino</p>
+
+                    <span>₹160</span>
+
+                    <br><br>
+
+                    <button onclick="orderItem('Classic Cappuccino', 160)">
+                        Order Now
+                    </button>
+
+                </div>
+
+
+                <!-- Dessert -->
+                <div class="menu-card">
+
+                    <h3>🍰 Desserts</h3>
+
+                    <p>Blueberry Cake</p>
+
+                    <span>₹180</span>
+
+                    <br><br>
+
+                    <button onclick="orderItem('Blueberry Cake', 180)">
+                        Order Now
+                    </button>
+
+                </div>
+
+
+                <!-- Bakery -->
+                <div class="menu-card">
+
+                    <h3>🥐 Bakery</h3>
+
+                    <p>Butter Croissant</p>
+
+                    <span>₹120</span>
+
+                    <br><br>
+
+                    <button onclick="orderItem('Butter Croissant', 120)">
+                        Order Now
+                    </button>
+
+                </div>
+
+
+                <!-- Cold Drink -->
+                <div class="menu-card">
+
+                    <h3>🧋 Cold Drinks</h3>
+
+                    <p>Cold Coffee</p>
+
+                    <span>₹150</span>
+
+                    <br><br>
+
+                    <button onclick="orderItem('Cold Coffee', 150)">
+                        Order Now
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+
+            <h2>Visit Us</h2>
+
+            <p>📍 24 Rose Street, Chandigarh</p>
+
+            <p>📞 +91 98765 43210</p>
+
+            <p>✉️ hello@velvetbrew.com</p>
+
+
+            <h3>Opening Hours</h3>
+
+            <table>
+
+                <tr>
+                    <th>Day</th>
+                    <th>Timing</th>
+                </tr>
+
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9:00 AM - 9:00 PM</td>
+                </tr>
+
+                <tr>
+                    <td>Saturday - Sunday</td>
+                    <td>10:00 AM - 10:00 PM</td>
+                </tr>
+
+            </table>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>© 2026 Velvet Brew Café. All rights reserved.</p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

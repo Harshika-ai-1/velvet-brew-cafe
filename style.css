@@ -1,0 +1,316 @@
+/* ---------- GENERAL ---------- */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f1e7;
+    color: #3e2723;
+}
+
+
+/* ---------- HEADER ---------- */
+
+header {
+    background-color: #5a3825;
+    color: white;
+    padding: 20px 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+
+/* ---------- NAVIGATION ---------- */
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #e8c39e;
+}
+
+
+/* ---------- HOME ---------- */
+
+#home {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+#home h2 {
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+#home p {
+    font-size: 18px;
+    color: #6d4c41;
+    margin-bottom: 30px;
+}
+
+
+/* ---------- CAFE IMAGE ---------- */
+
+#home img {
+    width: 80%;
+    max-width: 900px;
+    height: 400px;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+
+    display: block;
+
+    margin: 0 auto 30px;
+}
+
+
+/* ---------- MENU BUTTON ---------- */
+
+#home a {
+    display: inline-block;
+
+    background-color: #5a3825;
+    color: white;
+
+    text-decoration: none;
+
+    padding: 12px 25px;
+
+    border-radius: 25px;
+
+    font-size: 16px;
+}
+
+#home a:hover {
+    background-color: #7a5138;
+}
+
+
+/* ---------- SECTIONS ---------- */
+
+#about,
+#menu,
+#contact {
+
+    background-color: white;
+
+    margin: 30px auto;
+
+    padding: 40px;
+
+    width: 80%;
+
+    max-width: 1000px;
+
+    border-radius: 20px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+#about h2,
+#menu h2,
+#contact h2 {
+
+    color: #5a3825;
+
+    font-size: 30px;
+}
+
+
+/* ---------- MENU CARDS ---------- */
+
+.menu-container {
+
+    display: flex;
+
+    gap: 20px;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    margin-top: 30px;
+}
+
+
+.menu-card {
+
+    background-color: #f8f1e7;
+
+    width: 200px;
+
+    padding: 25px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+
+.menu-card h3 {
+
+    color: #5a3825;
+}
+
+
+.menu-card p {
+
+    color: #6d4c41;
+}
+
+
+.menu-card span {
+
+    font-weight: bold;
+
+    color: #7a5138;
+
+    font-size: 18px;
+}
+
+
+.menu-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* ---------- ORDER BUTTON ---------- */
+
+.menu-card button {
+
+    background-color: #5a3825;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 20px;
+
+    cursor: pointer;
+
+    font-size: 14px;
+}
+
+
+.menu-card button:hover {
+
+    background-color: #7a5138;
+}
+
+
+/* ---------- TABLE ---------- */
+
+table {
+
+    width: 100%;
+
+    border-collapse: collapse;
+
+    margin-top: 20px;
+}
+
+
+th {
+
+    background-color: #5a3825;
+
+    color: white;
+
+    padding: 15px;
+}
+
+
+td {
+
+    padding: 15px;
+
+    text-align: center;
+
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+
+    background-color: #3e2723;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 50px;
+}
+
+
+/* ---------- MOBILE RESPONSIVE ---------- */
+
+@media (max-width: 700px) {
+
+    header {
+
+        flex-direction: column;
+
+        padding: 20px;
+    }
+
+
+    nav {
+
+        margin-top: 15px;
+    }
+
+
+    nav a {
+
+        margin: 0 8px;
+    }
+
+
+    #home h2 {
+
+        font-size: 32px;
+    }
+
+
+    #home img {
+
+        width: 100%;
+
+        height: 300px;
+    }
+
+
+    #about,
+    #menu,
+    #contact {
+
+        width: 80%;
+
+        padding: 25px;
+    }
+
+}
